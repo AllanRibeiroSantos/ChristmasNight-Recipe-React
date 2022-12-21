@@ -50,8 +50,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'PT Sans Narrow', sans-serif;
   }
   
-  h1, h2 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
   }
-  `
+`

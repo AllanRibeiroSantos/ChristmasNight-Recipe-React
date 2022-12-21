@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import { ThemeProvider } from 'styled-components'
-import { botaoTemaClaro, fonteTemaClaro, fundoTemaClaro } from './assets/Theme'
+import { botaoTemaClaro, fonteTemaClaro, fundoTemaClaro, fontSizeDesktop } from './assets/Theme'
 import { GlobalStyle } from './GlobalStyle'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,7 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {
         botaoTemaClaro,
         fonteTemaClaro,
-        fundoTemaClaro
+        fundoTemaClaro,
+        fontSizeDesktop
       }
     }>
       <App />

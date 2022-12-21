@@ -6,7 +6,7 @@ export const MainWrapper = styled.div`
   align-items: center;
   padding: 1rem 4rem;
   
-  .main__container {
+  .body__container {
     border-radius: 1rem;
     width: 100%;
     min-height: 100vh;

@@ -19,6 +19,23 @@ export const BotaoVerdeWrapper = styled.div`
   }
 `;
 
+export const BotaoVerdeInlinedWrapper = styled.div`
+  .botao__verde--inlined {
+    box-sizing: border-box;
+    border: 1px solid ${({theme}) => theme.botaoTemaClaro.botaoVerdeInlined};
+    background-color: rgba(255, 255, 255, 0);
+    color: ${({theme}) => theme.botaoTemaClaro.botaoVerdeInlined};
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .botao__verde--inlined:hover {
+    border: 1px solid ${({theme}) => theme.botaoTemaClaro.botaoVerdeInlined};
+    background-color: ${({theme}) => theme.botaoTemaClaro.botaoInlinedHover};
+  }
+`;
+
 export const BotaoLaranjaWrapper = styled.div`
   position: absolute;
   top: 0;
@@ -43,7 +60,7 @@ export const BotaoLaranjaWrapper = styled.div`
 `;
 
 export const BotaoLaranjaInlinedWrapper = styled.div`
-  .banner__botaoLaranjaInlined {
+  .botao__laranja--inlined {
     box-sizing: border-box;
     border: 2px solid ${({theme}) => theme.botaoTemaClaro.botaoLaranjaInlined};
     background-color: rgba(255, 255, 255, 0);
@@ -53,7 +70,7 @@ export const BotaoLaranjaInlinedWrapper = styled.div`
     margin-top: 2rem;
   }
 
-  .banner__botaoLaranjaInlined:hover {
+  .botao__laranja--inlined:hover {
     border: 2px solid ${({theme}) => theme.botaoTemaClaro.botaoLaranjaInlined};
     background-color: ${({theme}) => theme.botaoTemaClaro.botaoInlinedHover};
   }

@@ -16,7 +16,10 @@ import {
   botaoInlinedHover,
   fundoVerdeClaro,
   fundoVerdeEscuro,
-  fundoVerdeMaisEscuro
+  fundoVerdeMaisEscuro,
+  fontSizeTitulo1,
+  fontSizeTitulo2,
+  fontSizeTitulo3
 } from './Variaveis';
 
 export const fonteTemaClaro = {
@@ -44,4 +47,10 @@ export const fundoTemaClaro = {
   'fundoVerdeClaro' : fundoVerdeClaro,
   'fundoVerdeEscuro' : fundoVerdeEscuro,
   'fundoVerdeMaisEscuro' : fundoVerdeMaisEscuro
+}
+
+export const fontSizeDesktop = {
+  'fontSizeTitulo1' : fontSizeTitulo1,
+  'fontSizeTitulo2' : fontSizeTitulo2,
+  'fontSizeTitulo3' : fontSizeTitulo3
 }

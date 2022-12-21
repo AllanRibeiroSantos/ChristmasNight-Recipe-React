@@ -14,7 +14,7 @@ export const AnuncioPrincipalWrapper = styled.div`
 
   & p {
     color: ${({theme}) => theme.fonteTemaClaro.fonteTextoFundoVerde};
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 30rem;
   }
 `;

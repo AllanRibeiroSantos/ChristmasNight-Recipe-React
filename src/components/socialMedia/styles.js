@@ -13,15 +13,19 @@ export const SocialMediaWrapper = styled.div`
     margin-top: 3rem;
   }
 
-  .social_github a {
-    color: #000;
+  .contatos_redes_sociais li a {
+    color: rgb(148, 184, 184);
   }
 
-  .social_linkedin a {
-    color: #0A66C2;
+  .social_github a:hover {
+    color: rgb(0, 0, 0, 70%);
   }
 
-  .social_youtube a {
-    color: #FF0000;
+  .social_linkedin a:hover {
+    color: rgba(10, 102, 194,  70%);
+  }
+
+  .social_youtube a:hover {
+    color: rgba(255, 0, 0, 70%);
   }
 `;

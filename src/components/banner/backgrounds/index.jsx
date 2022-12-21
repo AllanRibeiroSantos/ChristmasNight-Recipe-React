@@ -1,7 +1,28 @@
 import { BotaoVerdeMaisEscuroWrapper } from "../../botoes/styles";
 import { BannerBackgroundWrapper } from "./styles";
+// import { pegaBannerInfo } from '../../../api';
+import { useEffect, useState } from "react";
 
 export default function BannerBackground() {
+  // const [newRecipe, setNewRecipe] = useState();
+
+  // useEffect(() => {
+  //   fetch('http://localhost:5174/Banner', {
+  //     method: 'GET',
+  //     headers: { 'Content-Type': 'application/json' },
+  //   })
+  //     .then(resposta => resposta.json())
+  //     .then(data => setNewRecipe(data))
+  //     .catch(erro => console.log(erro))
+  // }, [])
+
+  // const { 
+  //   tituloTag,
+  //    titulo, 
+  //    conteudo, 
+  //    fundoTematico, 
+  //    imagemIlustrativa } = newRecipe.Novidades;
+
   return (
     <BannerBackgroundWrapper >
       <div className="banner__fundoTematico" ></div>

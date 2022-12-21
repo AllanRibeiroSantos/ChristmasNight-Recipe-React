@@ -4,7 +4,7 @@ import { ContextBanner } from '../../commom/context/ContextBanner';
 
 export default function MenuRetratil() {
   const { toggleMenu } = useContext(ContextBanner);
-  console.log(toggleMenu)
+
   return (
     <MenuRetratilWrapper toggle={toggleMenu}>
       <ul className='menuRetratil__lista'>

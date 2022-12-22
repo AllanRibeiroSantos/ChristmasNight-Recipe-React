@@ -1,15 +1,13 @@
 import styled from "styled-components";
-import brownie_image from '../../assets/img/cherry-brownie.png';
+import brownie_image from '../../../assets/img/cherry-brownie.png';
 
-export const MelhoresReceitasWrapper = styled.div`
-  .main_content__melhores_receitas {
-    /* display: flex;
-    align-items: center; */
+export const ChamadoReceitasWrapper = styled.div`
+  .main_content__chamado {
     position: relative;
-    height: 37rem;
+    height: 40rem;
   }
   
-  .melhores_receitas__image {
+  .chamado__image {
     background-image: url(${brownie_image});
     background-position: 0% 35%;
     border-radius: 0.5rem 0 0 0;
@@ -20,7 +18,7 @@ export const MelhoresReceitasWrapper = styled.div`
     width: 45rem;
   }
   
-  .melhores_receitas__image--text {
+  .chamado__image--text {
     position: absolute;
     right: 15rem;
     bottom: -1.5rem;
@@ -28,12 +26,12 @@ export const MelhoresReceitasWrapper = styled.div`
     width: 40rem;
   }
 
-  .melhores_receitas__image--text h1 {
+  .chamado__image--text h1 {
     color: ${({ theme }) => theme.fonteTemaClaro.titulo};
     font-size: ${({ theme }) => theme.fontSizeDesktop.fontSizeTitulo2};
   }
 
-  .melhores_receitas__image--text p {
+  .chamado__image--text p {
     color: ${({ theme }) => theme.fonteTemaClaro.fonteTextoFundoBranco};
     margin-top: 3rem;
     width: 80%;

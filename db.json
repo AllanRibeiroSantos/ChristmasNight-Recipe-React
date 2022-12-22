@@ -51,7 +51,7 @@
       "pessoas": 12,
       "tempo_estimado": "10 hora e 20 minutos",
       "dificuldade": 1,
-      "descricao": "This gluten-free cake will really get you in the festive spirit, with sweet apples, cinnamon, ginger and nutmeg",
+      "descricao": "Este bolo sem glúten vai fazer você entrar no espírito festivo, com maçãs doces, canela, gengibre e noz-moscada",
       "valor_nutricional": {
         "caloria": [358, "18%"],
         "proteina": [6.1, "12%"],
@@ -95,7 +95,7 @@
     },
     {
       "id": 2,
-      "nome": "Gingerbread people",
+      "nome": "Biscoitos de gengibre",
       "pessoas": 14,
       "tempo_estimado": "40 minutos + tempo para esfriar",
       "dificuldade": 2,
@@ -183,11 +183,11 @@
     },
     {
       "id": 4,
-      "nome": "Vegan ginger cupcakes",
+      "nome": "Cupcakes de gengibre vegano",
       "pessoas": 12,
       "tempo_estimado": "35 minutos + tempo de resfriamento",
       "dificuldade": 1,
-      "descricao": "Simple spiced cupcakes, topped with a deliciously rich cream cheese icing.",
+      "descricao": "Cupcakes simples com especiarias, cobertos com uma deliciosa cobertura de cream cheese.",
       "valor_nutricional": {
         "caloria": [430, "22%"],
         "proteina": [4.8, "10%"],

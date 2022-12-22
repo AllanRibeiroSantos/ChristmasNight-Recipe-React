@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const ReceitasFavoritasWrapper = styled.div`
   width: 100%;
   background-color: ${({theme}) => theme.fundoTemaClaro.fundoVerdeClaro};
-
+  
   .receitas_favoritas__titulo_principal {
-    padding-top: 15rem;
-    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-top: 13rem;
+    padding-bottom: 8rem;
+    text-align: center;
   }
 
   .receitas_favoritas__titulo_principal h1 {
@@ -38,10 +39,22 @@ export const ReceitasFavoritasCardWrapper = styled.div`
     margin: 0 1.2rem;
   }
 
+  .receitas_favoritas__card-container--imagem-container {
+    height: 40rem;
+    width: 25rem;
+    overflow: hidden;
+    background-color: black;
+  }
+
   .receitas_favoritas__card-container--imagem {
     height: 40rem;
     width: 25rem;
-    background-color: black;
+    scale: 1.2;
+  }
+
+  .receitas_favoritas__card-container--imagem:hover {
+    transition: 200ms;
+    scale: 1.3;
   }
 
   .receitas_favoritas__card-container--caption_container {
@@ -52,7 +65,12 @@ export const ReceitasFavoritasCardWrapper = styled.div`
   }
   
   .card-container--caption {
-    width: 17rem; //era 15rem
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 18rem;
+    width: 17rem;
   }
 
   .receitas_favoritas__card-container--caption_container h3 {
@@ -62,8 +80,6 @@ export const ReceitasFavoritasCardWrapper = styled.div`
   }
 
   .receitas_favoritas__card-container--caption_container p {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
     color: ${({theme}) => theme.fonteTemaClaro.fonteTextoFundoVerde};
   }
 `;

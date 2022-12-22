@@ -6,7 +6,7 @@ export default function ReceitasFavoritas() {
     <ReceitasFavoritasWrapper >
       <section className="main_content__receitas_favoritas">
         <div className="receitas_favoritas__titulo_principal">
-          <h1>Elvish's favorite desserts have been chosen. The fans have spoken.</h1>
+          <h1>Separamos as três melhores receitas baseados na votação do povo.</h1>
           <div className="receitas_favoritas__titulo_principal--line"></div>
           <ReceitasFavoritasCard />
         </div>

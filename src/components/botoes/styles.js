@@ -27,7 +27,6 @@ export const BotaoVerdeInlinedWrapper = styled.div`
     color: ${({theme}) => theme.botaoTemaClaro.botaoVerdeInlined};
     cursor: pointer;
     padding: 0.5rem 2rem;
-    margin-top: 2rem;
   }
 
   .botao__verde--inlined:hover {

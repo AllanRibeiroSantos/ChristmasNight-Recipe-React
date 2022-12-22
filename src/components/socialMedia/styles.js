@@ -29,3 +29,33 @@ export const SocialMediaWrapper = styled.div`
     color: rgba(255, 0, 0, 70%);
   }
 `;
+
+export const SocialMediaFooterWrapper = styled.div`
+  margin-top: 1rem;
+  
+  .contatos_redes_sociais {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contatos_redes_sociais a {
+    font-size: 2rem;
+    color: ${({theme}) => theme.fonteTemaClaro.fonteLaranja};
+  }
+
+  .contatos_redes_sociais a:not(:first-child) {
+    margin-left: 3rem;
+  }
+
+  .social_github:hover {
+    color: rgb(0, 0, 0, 70%);
+  }
+
+  .social_linkedin:hover {
+    color: rgba(10, 102, 194,  70%);
+  }
+
+  .social_youtube:hover {
+    color: rgba(255, 0, 0, 70%);
+  }
+`;

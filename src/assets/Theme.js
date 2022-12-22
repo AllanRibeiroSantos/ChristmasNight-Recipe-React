@@ -24,7 +24,7 @@ import {
 
 export const fonteTemaClaro = {
   'titulo' : fonteTitulo,
-  'tituloSecundario' : fonteTituloSecundario,
+  'tituloSecundarioCinza' : fonteTituloSecundario,
   'fonteTextoFundoVerde' : fonteTextoFundoVerde,
   'fonteTextoFundoBranco' : fonteTextoFundoBranco,
   'fonteTextoEscuro' : fonteTextoEscuro,

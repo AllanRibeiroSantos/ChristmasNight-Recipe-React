@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import ilustracao from '../../../assets/img/christmas-cookies.png'
-import fundoTematico from '../../../assets/img/christmastree.png'
+import ilustracao from '../../../../../assets/img/christmas-cookies.png'
+import fundoTematico from '../../../../../assets/img/christmastree.png'
 
 export const BannerBackgroundWrapper = styled.div`
   .banner__fundoTematico {

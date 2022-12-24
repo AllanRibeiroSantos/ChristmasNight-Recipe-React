@@ -1,8 +1,8 @@
-import BotaoVerdeInlined from "../../../botoes/BotaoVerdeInlined";
+import BotaoVerdeInlined from "../../../../../botoes/BotaoVerdeInlined";
 import { ReceitasFavoritasCardWrapper } from "../styles";
-import appleCake from '../../../../assets/img/apple-christmas.png'
-import gingerCupcake from '../../../../assets/img/ginger-cupcake.png'
-import devilChoc from '../../../../assets/img/devil-double-choc.png'
+import appleCake from '../../../../../../assets/img/apple-christmas.png'
+import gingerCupcake from '../../../../../../assets/img/ginger-cupcake.png'
+import devilChoc from '../../../../../../assets/img/devil-double-choc.png'
 
 export default function ReceitasFavoritasCard() {
   return (

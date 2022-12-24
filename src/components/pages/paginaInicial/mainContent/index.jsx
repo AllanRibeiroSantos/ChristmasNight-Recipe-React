@@ -3,7 +3,7 @@ import Chamado from './chamado'
 import ReceitasFavoritas from './receitasFavoritas'
 import Eventos from "./eventos";
 import MapaEvento from "./googlemaps";
-import Footer from "../footer";
+import Footer from "../../../footer";
 
 export default function MainContent() {
   return (

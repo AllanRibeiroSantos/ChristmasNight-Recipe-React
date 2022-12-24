@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import brownie_image from '../../../assets/img/cherry-brownie.png';
+import brownie_image from '../../../../../assets/img/cherry-brownie.png';
 
 export const ChamadoReceitasWrapper = styled.div`
   .main_content__chamado {

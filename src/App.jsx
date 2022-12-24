@@ -1,20 +1,14 @@
-import { BrowserRouter as Router } from 'react-router-dom'
-import Banner from "./components/banner";
-import Footer from './components/footer';
-import MainContent from './components/mainContent';
-import { MainWrapper } from "./styles";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import PaginaInicial from './components/pages/paginaInicial/PaginaInicial';
+import Receitas from './components/pages/receitas/Receitas';
 
 export default function App() {
   return (
     <Router >
-      <MainWrapper>
-        <div className="body__container">
-          <Banner />
-          <MainContent />
-          {/* Não estou conseguindo colocar o footer por aqui */}
-          {/* <Footer /> */}
-        </div>
-      </MainWrapper>
+      <Routes >
+        <Route exact path='/' element={<PaginaInicial />} />
+        <Route path='/receitas' element={<Receitas />} />
+      </Routes>
     </Router >
   )
 }

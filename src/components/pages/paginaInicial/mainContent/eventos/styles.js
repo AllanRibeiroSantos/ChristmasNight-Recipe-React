@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import christmasEvent from '../../../assets/img/christmas-event.jpeg'
+import christmasEvent from '../../../../../assets/img/christmas-event.jpeg'
 
 export const EventosWrapper = styled.div`
   background-image: url(${christmasEvent});

@@ -40,7 +40,7 @@ export const SocialMediaFooterWrapper = styled.div`
   
   .contatos_redes_sociais a {
     font-size: 2rem;
-    color: ${({theme}) => theme.fonteTemaClaro.fonteLaranja};
+    color: rgba(255, 71, 26, 85%);
   }
 
   .contatos_redes_sociais a:not(:first-child) {

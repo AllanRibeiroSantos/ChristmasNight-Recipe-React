@@ -1,4 +1,4 @@
-import { BotaoVerdeMaisEscuroWrapper } from "../../botoes/styles";
+import { BotaoVerdeMaisEscuroBannerWrapper } from "../../../../botoes/styles";
 import { BannerBackgroundWrapper } from "./styles";
 // import { pegaBannerInfo } from '../../../api';
 import { useEffect, useState } from "react";
@@ -33,9 +33,9 @@ export default function BannerBackground() {
           <h1>Biscoitos Amanteigados</h1>
           <p>Biscoitos amanteigados com a ponta mergulhada na Nutella, o sabor do gengibre dá um toque natalino à essa maravilha.</p>
         </div>
-        <BotaoVerdeMaisEscuroWrapper >
-          <button className="banner__buttonBUY">Veja mais...</button>
-        </BotaoVerdeMaisEscuroWrapper>
+        <BotaoVerdeMaisEscuroBannerWrapper >
+          <button className="botaoVerdeMaisEscuro">Veja mais...</button>
+        </BotaoVerdeMaisEscuroBannerWrapper >
       </div>
     </BannerBackgroundWrapper>
   )

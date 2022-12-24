@@ -75,8 +75,8 @@ export const BotaoLaranjaInlinedWrapper = styled.div`
   }
 `;
 
-export const BotaoVerdeMaisEscuroWrapper = styled.div`
-  .banner__buttonBUY {
+export const BotaoVerdeMaisEscuroBannerWrapper = styled.div`
+  .botaoVerdeMaisEscuro {
     background-color: ${({theme}) => theme.fundoTemaClaro.fundoVerdeMaisEscuro};
     border: none;
     bottom: -1rem;
@@ -89,7 +89,20 @@ export const BotaoVerdeMaisEscuroWrapper = styled.div`
     z-index: 4;
   }
 
-  .banner__buttonBUY:hover {
+  .botaoVerdeMaisEscuro:hover {
+    background-color: ${({theme}) => theme.botaoTemaClaro.botaoVerdeMaisEscuroHover};
+  }
+`;
+
+export const BotaoVerdeMaisEscuroWrapper = styled(BotaoVerdeMaisEscuroBannerWrapper)`
+  .botaoVerdeMaisEscuro {
+    bottom: initial;
+    position: static;
+    right: initial;
+    z-index: initial;
+  }
+
+  .botaoVerdeMaisEscuro:hover {
     background-color: ${({theme}) => theme.botaoTemaClaro.botaoVerdeMaisEscuroHover};
   }
 `;

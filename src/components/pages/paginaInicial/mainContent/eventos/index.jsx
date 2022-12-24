@@ -1,4 +1,4 @@
-import BotaoLaranjaInlined from "../../botoes/BotaoLaranjaInlined";
+import BotaoLaranjaInlined from "../../../../botoes/BotaoLaranjaInlined";
 import { EventosWrapper } from "./styles";
 
 export default function Eventos() {

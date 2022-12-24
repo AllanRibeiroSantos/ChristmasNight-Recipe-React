@@ -21,6 +21,10 @@ export const MenuRetratilWrapper = styled.div`
     width: 40rem; // Antes era 42
   }
 
+  .menuRetratil__lista a {
+    color: ${({theme}) => theme.fonteTemaClaro.fonteTextoFundoVerde};
+  }
+
   .menuRetratil__lista li {
     padding: 1rem 3rem;
     border-radius: 0.15rem;

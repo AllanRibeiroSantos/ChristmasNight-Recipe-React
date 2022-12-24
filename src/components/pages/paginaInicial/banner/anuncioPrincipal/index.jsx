@@ -1,4 +1,4 @@
-import BotaoLaranjaInlined from "../../botoes/BotaoLaranjaInlined";
+import BotaoLaranjaInlined from "../../../../botoes/BotaoLaranjaInlined";
 import { AnuncioPrincipalWrapper } from "./styles";
 
 export default function AnuncioPrincipal() {

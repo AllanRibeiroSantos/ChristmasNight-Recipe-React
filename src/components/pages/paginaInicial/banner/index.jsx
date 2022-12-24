@@ -1,7 +1,7 @@
-import BotaoLaranja from "../botoes/BotaoLaranja";
-import BotaoVerde from "../botoes/BotaoVerde";
-import { ContextBannerProvider } from "../commom/context/ContextBanner";
-import SocialMedia from "../socialMedia";
+import BotaoLaranja from "../../../botoes/BotaoLaranja";
+import BotaoVerde from "../../../botoes/BotaoVerde";
+import { ContextBannerProvider } from "../../../commom/context/ContextBanner";
+import SocialMedia from "../../../socialMedia/index";
 import AnuncioPrincipal from "./anuncioPrincipal";
 import BannerBackground from "./backgrounds";
 import MenuRetratil from "./menuRetratil";

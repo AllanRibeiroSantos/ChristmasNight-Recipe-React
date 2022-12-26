@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const ReceitasHeaderWrapper = styled.div`
-  .receitas__header {
+export const HeaderWrapper = styled.div`
+  .header {
     align-items: center;
     border-top: 0.5rem solid ${({theme}) => theme.fundoTemaClaro.fundoVerdeClaro};
     /* border-bottom: 0.5rem solid ${({theme}) => theme.fundoTemaClaro.fundoVerdeClaro}; */
@@ -11,26 +11,26 @@ export const ReceitasHeaderWrapper = styled.div`
     padding: 0 3rem;
   }
 
-  .receitas__header h3 {
+  .header h3 {
     color: ${({theme}) => theme.fonteTemaClaro.titulo};
     font-size: ${({theme}) => theme.fontSizeDesktop.fontSizeTitulo3};
   }
 
-  .receitas__header--lista {
+  .header--lista {
     box-sizing: border-box;
     display: flex;
   }
 
-  .receitas__header--lista a {
+  .header--lista a {
     color: ${({theme}) => theme.fonteTemaClaro.fonteTextoFundoBranco};
     padding: 1rem 2rem;
   }
 
-  .receitas__header--lista a:hover {
+  .header--lista a:hover {
     background-color: ${({theme}) => theme.fundoTemaClaro.fundoVerdeClaro};
   }
   
-  .receitas__header--lista a:not(:first-child) {
+  .header--lista a:not(:first-child) {
     margin-left: 1rem;
   }
 `;

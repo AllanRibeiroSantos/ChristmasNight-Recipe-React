@@ -1,6 +1,6 @@
 import { ReceitasWrapper } from "../../../styles"
 import Footer from "../../footer"
-import ReceitasHeader from "./header"
+import ReceitasHeader from "../../header"
 import ReceitasCard from "./receitasCard"
 
 export default function Receitas() {

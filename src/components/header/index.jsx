@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { ReceitasHeaderWrapper } from "./styles";
+import { HeaderWrapper } from "./styles";
 
-export default function ReceitasHeader() {
+export default function Header() {
   return (
-    <ReceitasHeaderWrapper >
-      <header className="receitas__header">
+    <HeaderWrapper >
+      <header className="header">
         <h3>Christmas Night Recipes</h3>
-        <ul className="receitas__header--lista">
+        <ul className="header--lista">
           <Link to='/' style={{ textDecoration: 'none' }}>
             <li>Pagina Inicial</li>
           </Link>
@@ -21,6 +21,6 @@ export default function ReceitasHeader() {
           </Link>
         </ul>
       </header>
-    </ReceitasHeaderWrapper>
+    </HeaderWrapper>
   )
 }

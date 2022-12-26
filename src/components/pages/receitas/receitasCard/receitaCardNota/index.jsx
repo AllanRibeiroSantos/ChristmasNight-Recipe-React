@@ -1,6 +1,7 @@
 import { ReceitaCardNotaWrapper } from "./styles";
 import { GiCupcake } from 'react-icons/gi';
 import BotaoVerdeMaisEscuro from "../../../../botoes/BotaoVerdeMaisEscuro";
+import { Link } from "react-router-dom";
 
 export default function ReceitaCardNota() {
   return (
@@ -23,7 +24,9 @@ export default function ReceitaCardNota() {
           <GiCupcake />
         </div>
         <div className="receita_card__text--botao">
-          <BotaoVerdeMaisEscuro texto='Ver receita' />
+          <Link to='/receita' >
+            <BotaoVerdeMaisEscuro texto='Ver receita' />
+          </Link>
         </div>
       </div>
     </ReceitaCardNotaWrapper>

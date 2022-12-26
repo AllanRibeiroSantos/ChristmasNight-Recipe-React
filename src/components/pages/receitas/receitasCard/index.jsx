@@ -19,7 +19,7 @@ export default function ReceitasCard() {
           </div>
         </div>
         <div className="receita_card__text">
-          <h2>Bolo de maçã natalino sem glútem</h2>
+          <h2>Bolo de maçã natalino sem glúten</h2>
           <p>Este bolo sem glúten vai fazer você entrar no espírito festivo, com maçãs doces, canela, gengibre e noz-moscada.</p>
           <p><span>Dificuldade: </span>2</p>
           <div className="receita_card__text--tag">
